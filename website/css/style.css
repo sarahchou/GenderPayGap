@@ -197,12 +197,12 @@ color: #fff;
 }
 .link:hover {
 	text-decoration:none;
-	color:#7cc576 !important;
-	background:#fff;
+	color:#36007c !important;
+	background:#ffd37e;
 }
 
 .link:active, .link:focus {
-	background: #7cc576;
+	background: #36007c;
 	text-decoration:none;
 	color:#fff !important;
 }
@@ -633,7 +633,7 @@ border: 2px solid #fff;
 .business-talking{
 	background:url(../img/bottom-bg-img.png) top center no-repeat;
 	background-size:cover;
-	padding:60px 0 10px;
+	padding:60px 5px 10px 5px;
 	text-align:center;
 }
 .business-talking h2{
@@ -648,6 +648,7 @@ border: 2px solid #fff;
 .business-talking p{
 	color: rgb(143, 138, 138);
 	font-size: 16px;
+	margin-right: 55px;
 }
 
 
@@ -762,7 +763,7 @@ border: 2px solid #fff;
 .input-btn{
 	width:175px;
 	height:50px;
-	background:#7cc576;
+	background:#36007c;
 	border-radius:4px;
 	color:#ffffff;
 	font-size:14px;
@@ -859,7 +860,7 @@ border: 2px solid #fff;
 }
 
 .res-nav_click:hover, .res-nav_click:active, .res-nav_click:focus {
-	color: #7cc576 !important;
+	color: #36007c !important;
 }
 
 .portfolioContainer{

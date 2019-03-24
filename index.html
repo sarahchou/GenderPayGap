@@ -87,43 +87,116 @@
 </a>
   </div>
 					
+			</div class="factors">
+				<div class="wide" style="background-color:#ff1b60;">
+				<h2>Company Size</h2>
+				<p>0-499, 500-999, 1000-4999 employees</p>
+				<a href="default.asp">
+					<img src="https://cdn2.iconfinder.com/data/icons/business-world-2/64/scalable-change-size-company-business-512.png"
+						alt="HTML tutorial" style="width:200px;height:200px;border:10;">
+				</a>
+			</div>
+			<div class="wide" style="background-color:#ffd37e;">
+				<h2>Industry Type</h2>
+				<p>What sector and product is the company focused on</p>
+				<a href="default.asp">
+					<img src="https://cdn0.iconfinder.com/data/icons/industrial-icons2/164/14-512.png"
+						alt="HTML tutorial" style="width:200px;height:200px;border:10;">
+				</a>
+			</div>
+			<div class="wide" style="background-color:#fb996f;">
+				<h2>Quartile Level</h2>
+				<p>The level of position in the company</p>
+				<a href="default.asp">
+					<img src="http://aux2.iconspalace.com/uploads/workers-icon-256.png" alt="HTML tutorial"
+						style="width:200px;height:200px;border:10;">
+				</a>
+
+			</div>
+			<div class="wide" style="background-color:#ff7583;">
+				<h2>Gender</h2>
+				<p>The differences between male and female roles.</p>
+				<a href="default.asp">
+					<img src="https://www.shareicon.net/data/512x512/2016/06/10/586076_gender_512x512.png"
+						alt="HTML tutorial" style="width:200px;height:200px;border:10;">
+				</a>
+			</div>
+		</div>
+
 			<section class="question" id="companySize">
 				<div class="container">
 					<h3>How does company size impact the percentage of women hired in each quartile?</h3>
-					<p><a href="">embed here</a></p>
+					<script type='text/javascript' src='https://us-east-1.online.tableau.com/javascripts/api/viz_v1.js'></script>
+					<div class='tableauPlaceholder' style='width: 1140px; height: 850px;'>
+						<object class='tableauViz' width='1140' height='850' style='display:none;'>
+						<param name='host_url' value='https%3A%2F%2Fus-east-1.online.tableau.com%2F' />
+						 <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;genderpaygap' />
+						 <param name='name' value='Sankey&#47;EmployerSizexQuartiles' />
+						 <param name='tabs' value='yes' />
+						 <param name='toolbar' value='yes' />
+						 <param name='showAppBanner' value='false' />
+						 <param name='filter' value='iframeSizedToWindow=true' />
+						</object>
+					</div>
+					<br>
+						<h4>Answer</h4>
+						<p>Surprisingly, there does not seem to be correlation between the size of a company and what
+							 quartile a woman falls in. It's a pretty even spread across the board with the majority of woman
+							falling in the lower quartile - it's easy to get in, harder to climb.</p>
+					</br>
 				</div>
 			</section>
 
 			<section class="question" id="industry">
 				<div class="container">
-					<h3>Which industries hire the most women in the top quartile?</h3>
-				</div>
-			</section>
+					<h3>Across industries, are bonuses generally equal for men and women?</h3>
+					<script type='text/javascript' src='https://us-east-1.online.tableau.com/javascripts/api/viz_v1.js'></script>
+					<div class='tableauPlaceholder' style='width: 1361px; height: 648px;'>
+						<object class='tableauViz' width='1140' height='648' style='display:none;'>
+							<param name='host_url' value='https%3A%2F%2Fus-east-1.online.tableau.com%2F' /> 
+							<param name='embed_code_version' value='3' /> 
+							<param name='site_root' value='&#47;t&#47;genderpaygap' />
+							<param name='name' value='DiffMeanBonus&#47;DiffMeanBonusForEachIndustry' />
+							<param name='tabs' value='no' />
+							<param name='toolbar' value='yes' />
+							<param name='showAppBanner' value='false' />
+							<param name='filter' value='iframeSizedToWindow=true' /></object>
+						</div>
+						<br>
+							<h4>Answer</h4>
+								<p>There are only a few industries where women have a higher bonus than men per euro. This was
+							not unsurprising to see, but was interesting because it shows that although we knew that men
+							were paid more in salary, they are also making more in bonuses in most industries. A good follow-up
+							question would be comparing salaries in those industries where women are making more in bonuses, to
+							see if their base pay also is more. 
+							</p>
+						</br>
+				</section>
 
 			<section class="question" id="howDo">
 				<div class="container">
-					<h3>How does the percentage of women hired in the top quartile compare to men, based on industry?
+					<h3>How does the percentage of women hired in the top and bottom quartile, based on industry?
 					</h3>
-					<script type='text/javascript'
-						src='https://us-east-1.online.tableau.com/javascripts/api/viz_v1.js'></script>
-					<div class='tableauPlaceholder' style='width: 60px; height: 600px;'>
-						<object class='tableauViz' width='1000' height='900' style='display:none;'>
-							<param name='host_url' value='https%3A%2F%2Fus-east-1.online.tableau.com%2F' />
-							<param name='embed_code_version' value='3' />
-							<param name='site_root' value='&#47;t&#47;genderpaygap' />
-							<param name='name' value='GenderGap&#47;TopQuartileMalev_Female' />
-							<param name='tabs' value='yes' />
-							<param name='toolbar' value='yes' />
-							<param name='showAppBanner' value='false' />
-							<param name='filter' value='iframeSizedToWindow=true' /></object></div>
-				</div>
-			</section>
-
-			<section class="conclusion" id="conclusion">
-				<div class="container">
-					<h2>What can we conclude from our findings?</h2>
-					<p>Based on what we've found, it seems that there are many external factors that contribute to women
-						earning less than men. </p>
+					<script type='text/javascript' src='https://us-east-1.online.tableau.com/javascripts/api/viz_v1.js'></script>
+					<div class='tableauPlaceholder' style='width: 1140px; height: 900px;'>
+						<object class='tableauViz' width='1140' height='600' style='display:none;'>
+						<param name='host_url' value='https%3A%2F%2Fus-east-1.online.tableau.com%2F' /> 
+						<param name='embed_code_version' value='3' /> 
+						<param name='site_root' value='&#47;t&#47;genderpaygap' />
+						<param name='name' value='Quartiles&#47;TopQuartileMalev_Female' />
+						<param name='tabs' value='yes' /><param name='toolbar' value='yes' />
+						<param name='showAppBanner' value='false' />
+						<param name='filter' value='iframeSizedToWindow=true' /></object></div>
+						<br>
+					<h4>Answer</h4>
+						<p>Only 3 of the reported industries have 50% or more women in the top quartile of the respective company,
+							surpassing the percentage of men in the upper quartile. The industries that have been steretypically
+							women, are indeed the ones where there are more women in upper-level leadership roles. This leads to another
+							question of the male to female ratio in a given industry and whether there are more women in leadership in one
+							industry, simply because there are more women overall to choose from. We think that this is likely the case,
+							but unfortunately did not have the data to dig deeper and confirm this.
+						</p>
+					</br>
 				</div>
 			</section>
 

@@ -61,6 +61,16 @@ body {
 	color:#888888;
 	margin:0;
 }
+h1{
+	font-size:48px;
+	color:#222222;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	letter-spacing: -1px;
+	margin:0 0 15px 0;
+	text-align:center;
+	text-transform:uppercase;
+}
 h2{
 	font-size:34px;
 	color:#222222;
@@ -74,9 +84,8 @@ h2{
 h3{
 	font-family: 'Montserrat', sans-serif;
 	color:#222222;
-	font-size:16px;
+	font-size:22px;
 	margin:0 0 5px 0;
-	text-transform:uppercase;
 	font-weight:400;
 }
 h6{

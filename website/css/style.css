@@ -612,7 +612,7 @@ border: 2px solid #fff;
 .business-talking{
 	background:url(../img/bottom-bg-img.png) top center no-repeat;
 	background-size:cover;
-	padding:60px 0 10px;
+	padding:60px 5px 10px 5px;
 	text-align:center;
 }
 .business-talking h2{
@@ -627,6 +627,7 @@ border: 2px solid #fff;
 .business-talking p{
 	color: rgb(143, 138, 138);
 	font-size: 16px;
+	margin-right: 55px;
 }
 
 

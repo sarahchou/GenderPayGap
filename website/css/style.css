@@ -84,7 +84,7 @@ h2{
 h3{
 	font-family: 'Montserrat', sans-serif;
 	color:#222222;
-	font-size:22px;
+	font-size:27px;
 	margin:0 0 5px 0;
 	font-weight:400;
 }
@@ -100,6 +100,8 @@ p{
 	line-height:24px;
 	margin:0;
 	color:#222222;
+	font-size: 18px;
+	padding-bottom: 30px;
 }
 
 /* Header Styles

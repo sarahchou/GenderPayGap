@@ -177,7 +177,7 @@ color: #fff;
 .link:hover {
 	text-decoration:none;
 	color:#36007c !important;
-	background:#fff;
+	background:#ffd37e;
 }
 
 .link:active, .link:focus {

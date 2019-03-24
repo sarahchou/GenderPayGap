@@ -14,6 +14,27 @@
 
 /* Clear Floated Elements
 ---------------------------------*/
+.column {
+  ffloat: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#wide {
+  float: left;
+  width: calc(100% / 4);
+  background: lightgreen;
+  padding-bottom: 10px;
+}
+
 .clear {
   clear: both;
   display: block;

@@ -929,6 +929,21 @@ border: 2px solid #fff;
   box-sizing: border-box;
 }
 
+#resources {
+	background-color: #ffd37e;
+	padding: 0, 0, 0, 0;
+	margin: 0;
+	margin-right: 0;
+}
+
+#other-links {
+	background-color: #ff7583;
+	padding: 0, 0, 0, 0;
+	margin: 0;
+	margin-right: 0;
+}
+
+
 .timeline-box {
 	width: 80%;
 	margin-left: auto;

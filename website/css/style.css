@@ -220,8 +220,9 @@ color: #fff;
 	padding:0px;
 	border-bottom:1px solid #dddddd;
 	box-shadow:0 4px 5px -3px #ececec;
-	position:relative;
-	background:#fff;
+	position:fixed;
+	background:#6d6961;
+	width: 100%;
 }
 .main-nav{
 	text-align:center;
@@ -638,7 +639,7 @@ border: 2px solid #fff;
 /* Talk Business
 ---------------------------------*/
 .business-talking{
-	background:url(../img/bottom-bg-img.png) top center no-repeat;
+	background:url(../img/timeline-bg-img.png) top center no-repeat;
 	background-size: cover;
 	width: 100%;
 
@@ -928,6 +929,17 @@ border: 2px solid #fff;
 * {
   box-sizing: border-box;
 }
+
+#resources {
+	background-color: #ffd37e;
+	width: 100%;
+}
+
+#other-links {
+	background-color: #ff7583;
+	width: 100%;
+}
+
 
 .timeline-box {
 	width: 80%;
